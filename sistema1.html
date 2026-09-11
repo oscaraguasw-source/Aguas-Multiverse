@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Águas Multiverse - Sistema 1.0</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <aside class="menu">
+
+        <h2>Sistema 1.0</h2>
+
+        <button onclick="mostrarPagina('inicio')">
+            (1) Início
+        </button>
+
+        <button onclick="mostrarPagina('ficha')">
+            (2) Ficha de personagem
+        </button>
+
+       <button onclick="mostrarPagina('criaturas'); carregarCriaturas()">
+            (3) Criaturas e NPCs
+        </button>
+
+        <button onclick="mostrarPagina('sessoes')">
+            (4) Sessões
+        </button>
+
+        <button onclick="mostrarPagina('mestre')">
+            (5) Recursos do mestre
+        </button>
+
+        <button onclick="voltarInicio()">
+            ← Voltar
+        </button>
+
+    </aside>
+
+
+    <main class="conteudo">
+
+        <!-- INÍCIO -->
+
+        <section id="inicio" class="pagina">
+
+            <h1>Águas Multiverse</h1>
+
+            <p>
+                Seja bem vindo, os mistérios aguardam nas águas do multiverso.
+            </p>
+
+           <div class="livros">
+
+    <button onclick="abrirLivro('sistema')">
+        Sistema 1.0
+    </button>
+
+    <button onclick="abrirLivro('demonios')">
+        Livro dos Demônios Ancestrais
+    </button>
+
+    <button onclick="abrirLivro('cinco')">
+        Livro das Cinco Seções Eternas
+    </button>
+
+</div>
+
+        </section>
+
+
+        <!-- FICHA -->
+
+        <section id="ficha" class="pagina oculto">
+
+            <h1>Ficha de personagem</h1>
+
+            <div class="senha-box">
+
+                <p>Digite a senha da ficha:</p>
+
+                <input
+                    type="password"
+                    id="senhaFicha"
+                    placeholder="Senha"
+                >
+
+                <button onclick="abrirFicha()">
+                    Entrar
+                </button>
+
+            </div>
+
+            <div id="resultadoFicha"></div>
+
+        </section>
+
+
+        <!-- CRIATURAS -->
+
+       <section id="criaturas" class="pagina oculto">
+    <h1>Criaturas e NPCs</h1>
+
+    <div class="tabela-container">
+        <table class="tabela-ficha">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Vida</th>
+                    <th>Resistência</th>
+                    <th>Poderes</th>
+                </tr>
+            </thead>
+
+            <tbody id="tabelaCriaturas">
+                <!-- Os NPCs e criaturas aparecerão aqui -->
+            </tbody>
+        </table>
+
+        <div id="resultadoCriatura"></div>
+    </div>
+</section>
+
+        <!-- SESSÕES -->
+
+        <section id="sessoes" class="pagina oculto">
+
+            <h1>Sessões</h1>
+
+           <div class="sessoes-lista">
+
+    <div class="sessao">
+       <img src="./imagens/banner-sessao-1.jpg.jpeg" alt="Banner da Sessão 1">
+        <h2>Sessão 1</h2>
+        <p>Data: 2/8</p>
+        <p>Horário: 14h as 17h</p>
+    </div>
+
+    <div class="sessao">
+       <img src="./imagens/banner-sessao-2.jpg.jpeg" alt="Banner da Sessão 2">
+        <h2>Sessão 2</h2>
+        <p>Data: 19/9</p>
+        <p>Horário: 14h às 17h</p>
+    </div>
+
+</div>
+
+</div>
+
+        </section>
+
+
+        <!-- MESTRE -->
+
+        <section id="mestre" class="pagina oculto">
+
+            <h1>Recursos do mestre</h1>
+
+            <div class="senha-box">
+
+                <p>Digite a senha do mestre:</p>
+
+                <input
+                    type="password"
+                    id="senhaMestre"
+                    placeholder="Senha"
+                >
+
+                <button onclick="abrirMestre()">
+                    Entrar
+                </button>
+
+            </div>
+
+            <div id="resultadoMestre"></div>
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

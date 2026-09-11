@@ -1,0 +1,414 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #06152e;
+    color: white;
+    font-family: Arial, sans-serif;
+
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 60px;
+}
+
+.sistemas {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 25px;
+
+    width: 600px;
+}
+
+.sistemas button {
+    height: 150px;
+
+    background-color: #0b2855;
+
+    color: white;
+
+    border: 2px solid #17447f;
+
+    border-radius: 15px;
+
+    font-size: 25px;
+
+    cursor: pointer;
+}
+
+.sistemas button:hover {
+    background-color: #12396f;
+}
+/* ========================= */
+/* MENU DO SISTEMA 1.0 */
+/* ========================= */
+
+.menu {
+    position: fixed;
+
+    left: 0;
+    top: 0;
+
+    width: 260px;
+    height: 100vh;
+
+    background-color: #041027;
+
+    padding: 25px 15px;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 12px;
+}
+
+.menu h2 {
+    text-align: center;
+
+    margin-bottom: 20px;
+
+    font-size: 24px;
+}
+
+.menu button {
+    background-color: #0b2855;
+
+    color: white;
+
+    border: 1px solid #17447f;
+
+    border-radius: 8px;
+
+    padding: 16px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    text-align: left;
+
+    transition: 0.2s;
+}
+
+.menu button:hover {
+    background-color: #16447d;
+}
+
+
+/* ========================= */
+/* CONTEÚDO */
+/* ========================= */
+
+.conteudo {
+    margin-left: 260px;
+
+    min-height: 100vh;
+
+    padding: 60px;
+}
+
+.pagina h1 {
+    font-size: 45px;
+
+    margin-bottom: 20px;
+}
+
+.pagina p {
+    font-size: 20px;
+
+    line-height: 1.5;
+}
+
+
+/* ========================= */
+/* ESCONDER PÁGINAS */
+/* ========================= */
+
+.oculto {
+    display: none;
+}
+
+
+/* ========================= */
+/* LIVROS */
+/* ========================= */
+
+.livros {
+    display: flex;
+
+    gap: 25px;
+
+    margin-top: 50px;
+
+    flex-wrap: wrap;
+}
+
+.livros button {
+    width: 250px;
+
+    min-height: 160px;
+
+    background-color: #0b2855;
+
+    color: white;
+
+    border: 2px solid #17447f;
+
+    border-radius: 12px;
+
+    font-size: 18px;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.livros button:hover {
+    background-color: #16447d;
+
+    transform: scale(1.03);
+}
+
+
+/* ========================= */
+/* SENHAS */
+/* ========================= */
+
+.senha-box {
+    margin-top: 40px;
+
+    background-color: #071b38;
+
+    border: 1px solid #17447f;
+
+    border-radius: 12px;
+
+    padding: 30px;
+
+    width: 400px;
+}
+
+.senha-box p {
+    margin-bottom: 15px;
+}
+
+.senha-box input {
+    width: 100%;
+
+    padding: 14px;
+
+    background-color: #020b1a;
+
+    color: white;
+
+    border: 1px solid #17447f;
+
+    border-radius: 7px;
+
+    margin-bottom: 15px;
+
+    font-size: 16px;
+}
+
+.senha-box button {
+    width: 100%;
+
+    padding: 14px;
+
+    background-color: #0b2855;
+
+    color: white;
+
+    border: 1px solid #17447f;
+
+    border-radius: 7px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+}
+
+.senha-box button:hover {
+    background-color: #16447d;
+}
+/* ========================================
+   FICHA DE PERSONAGEM
+======================================== */
+
+.ficha {
+    margin-top: 40px;
+    max-width: 900px;
+    background-color: #071b38;
+    border: 1px solid #17447f;
+    border-radius: 15px;
+    padding: 35px;
+}
+
+.ficha h2 {
+    font-size: 38px;
+    margin-bottom: 30px;
+}
+
+.ficha h3 {
+    font-size: 25px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #17447f;
+    padding-bottom: 10px;
+}
+
+
+/* DADOS DO PERSONAGEM */
+
+.dados-personagem {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.dados-personagem div {
+    background-color: #0b2855;
+    border: 1px solid #17447f;
+    border-radius: 8px;
+    padding: 14px;
+}
+
+.dados-personagem strong {
+    display: block;
+    margin-bottom: 6px;
+}
+
+.dados-personagem span {
+    font-size: 17px;
+}
+
+
+/* TABELAS */
+
+.tabela-ficha {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.tabela-ficha th,
+.tabela-ficha td {
+    border: 1px solid #17447f;
+    padding: 12px;
+    text-align: left;
+}
+
+.tabela-ficha th {
+    background-color: #0b2855;
+}
+
+.tabela-ficha td:last-child,
+.tabela-ficha th:last-child {
+    text-align: center;
+    width: 120px;
+}
+
+
+/* LORE */
+
+.lore {
+    background-color: #0b2855;
+    border: 1px solid #17447f;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.lore p {
+    margin: 0;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+
+/* ERRO */
+
+.erro {
+    margin-top: 20px;
+    font-weight: bold;
+}
+/* ========================================
+   BOTÕES DA FICHA
+======================================== */
+
+.botao-bld,
+.botao-voltar-ficha {
+    background-color: #0b2855;
+    color: white;
+    border: 1px solid #17447f;
+    border-radius: 8px;
+    padding: 12px 25px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.botao-bld:hover,
+.botao-voltar-ficha:hover {
+    background-color: #16447d;
+}
+.tabela-container {
+    margin-top: 30px;
+    overflow-x: auto;
+}
+
+.tabela-ficha {
+    background-color: #071b38;
+}
+
+.tabela-ficha tr:hover {
+    background-color: #12396f;
+}
+.sessoes-lista {
+    display: flex;
+    gap: 25px;
+    margin-top: 30px;
+    max-width: calc(100vw - 320px);
+    overflow-x: auto;
+    padding-bottom: 15px;
+}
+
+.sessao {
+    background-color: #071b38;
+    border: 1px solid #17447f;
+    border-radius: 15px;
+    padding: 20px;
+    overflow: hidden;
+    min-width: 400px;
+}
+
+.sessao img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.sessao h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.sessao p {
+    font-size: 18px;
+    margin-top: 6px;
+}
