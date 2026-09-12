@@ -943,7 +943,7 @@ if (recurso === "livros") {
 
         <div class="livros">
 
-            <button onclick="abrirLivroMestre('escolhidos')">
+            <button onclick="../abrirLivroMestre('escolhidos')">
                 Livro dos Escolhidos
             </button>
 
