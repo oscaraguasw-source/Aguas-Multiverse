@@ -972,7 +972,7 @@ if (recurso === "livros") {
 function abrirLivroMestre(livro) {
 
     if (livro === "escolhidos") {
-        window.open("O Livro dos Escolhidos.pdf", "_blank");
+        window.open("livros/O Livro dos Escolhidos.pdf", "_blank");
     }
 
     if (livro === "sociedades") {
