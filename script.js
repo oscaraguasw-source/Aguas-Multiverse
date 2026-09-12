@@ -972,23 +972,23 @@ if (recurso === "livros") {
 function abrirLivroMestre(livro) {
 
     if (livro === "escolhidos") {
-        window.open("livros/O Livro dos Escolhidos.pdf", "_blank");
+        window.open("O Livro dos Escolhidos.pdf", "_blank");
     }
 
     if (livro === "sociedades") {
-        window.open("livros/sociedades.pdf", "_blank");
+        window.open("sociedades.pdf", "_blank");
     }
 
     if (livro === "verde") {
-        window.open("livros/livro verde.pdf", "_blank");
+        window.open("livro verde.pdf", "_blank");
     }
 
     if (livro === "laranja") {
-        window.open("livros/livro laranja.pdf", "_blank");
+        window.open("livro laranja.pdf", "_blank");
     }
 
     if (livro === "azul") {
-        window.open("livros/livro azul.pdf", "_blank");
+        window.open("livro azul.pdf", "_blank");
     }
 
 }
@@ -1283,15 +1283,15 @@ function mostrarDetalhesCriatura(criatura) {
 function abrirLivro(livro) {
 
     if (livro === "sistema") {
-       window.open("livros/sistema1.pdf.pdf", "_blank");
+       window.open("sistema1.pdf.pdf", "_blank");
     }
 
     if (livro === "demonios") {
-        window.open("livros/Livro dos Demônios Ancestrais.pdf", "_blank");
+        window.open("Livro dos Demônios Ancestrais.pdf", "_blank");
     }
 
     if (livro === "cinco") {
-        window.open("livros/livro das cinco sessoes eternas.pdf", "_blank");
+        window.open("livro das cinco sessoes eternas.pdf", "_blank");
     }
 
 }
