@@ -348,7 +348,330 @@ const personagens = {
         lore: "um adulto entra na federaçao e é mandado pra escola pra guiar os destinados"
 
     },
+    Zayrion: {
 
+        senha: "Zayrion",
+
+        nome: "Zayrion Montclair",
+        idade: "327",
+        peso: "68kg",
+        altura: "1,78",
+        classe: "mago",
+        afiliacao: "iluminati",
+        magia: "magia",
+        devocao: "sonwent",
+        mortos: "X",
+
+        atributos: {
+            Força: 3,
+            Inteligência: 4,
+            Velocidade: 3,
+            Vontade: 4,
+            Percepção: 4,
+            Destreza: 2
+        },
+
+        pericias: {
+            Sorte: 4,
+            Equilíbrio: 6,
+            Precisão: 5,
+            Sabedoria: 16,
+            Furtividade: 13,
+            Agilidade: 2,
+            Acrobacia: 18,
+            Investigação: 5,
+            Persuasão: 10,
+            Intimidação: 12,
+            Diplomacia: 19,
+            Pilotagem: 5,
+            Mira: 20,
+            Atletismo: 2,
+            Arrombamento: 14,
+            Medicina: 15,
+            Criação: 14,
+            Carisma: 5,
+            Vigor: 17,
+            Tecnologia: 6,
+            "Conhecimento mágico": 5
+        },
+
+        lore: `Zayrion Montclair
+
+
+O Mago que o Tempo Esqueceu
+
+
+Zayrion Montclair nasceu em 1166 D.A., em uma família cuja história ainda guardava muitos mistérios. Desde jovem, Zayrion demonstrava uma curiosidade incomum. Enquanto outras crianças se interessavam pelo mundo que conheciam, ele queria compreender aquilo que existia além dele.
+
+
+Com o passar dos anos, essa curiosidade o levou ao estudo da magia.
+
+
+Zayrion tornou-se um estudioso dedicado, passando grande parte de sua juventude entre livros, manuscritos, símbolos e antigos conhecimentos. Foi durante seus estudos que encontrou algo que mudaria para sempre o rumo de sua vida: um dos Cinco Livros.
+
+
+O livro continha conhecimentos que ultrapassavam aquilo que Zayrion acreditava ser possível. Fascinado, ele passou anos tentando compreender seus ensinamentos e aprofundando-se cada vez mais na magia.
+
+
+Entre todas as áreas que estudou, uma chamou particularmente sua atenção:
+
+
+o tempo.
+
+
+Zayrion começou a acreditar que, se o tempo podia ser medido, observado e compreendido, talvez também pudesse ser influenciado pela magia.
+
+
+Foi então que tentou realizar um experimento.
+
+
+Seu objetivo era simples: alterar o ciclo do dia e da noite, fazendo o dia se transformar em noite através de magia temporal.
+
+
+Mas algo deu errado.
+
+A magia não afetou apenas o mundo ao redor de Zayrion.
+
+Ela afetou o próprio tempo de sua existência.
+
+No início, ele não percebeu.
+
+Os dias continuaram passando. As estações mudaram. Pessoas que conhecia envelheceram.
+
+
+Então Zayrion percebeu algo impossível.
+
+
+Ele estava envelhecendo, mas lentamente demais.
+
+
+Enquanto os anos passavam para o mundo, seu corpo mudava apenas uma pequena parte do que deveria.
+
+
+Foi assim que descobriu a consequência de seu feitiço.
+
+
+Zayrion não havia se tornado imortal.
+
+
+Ele ainda podia morrer.
+
+
+Seu corpo ainda era mortal, e uma morte causada por ferimentos ou outras circunstâncias ainda poderia acabar com sua vida.
+
+
+O que havia mudado era outra coisa:
+
+
+o tempo havia deixado de envelhecê-lo normalmente.
+
+
+Décadas poderiam passar enquanto Zayrion mudaria apenas um pouco.
+
+
+Séculos poderiam passar, e ele continuaria praticamente o mesmo.
+
+
+Mas havia um problema.
+
+
+Zayrion não sabia como desfazer o feitiço.
+
+
+E, quanto mais tempo passava, mais perigoso se tornava tentar.
+
+
+Ele começou a suspeitar que, caso conseguisse restaurar o fluxo normal de seu tempo, poderia acabar pagando o preço de todos os anos que havia vivido.
+
+
+Talvez seu corpo envelhecesse de uma só vez.
+
+
+Talvez sua existência simplesmente não fosse compatível com aquele tempo.
+
+
+Ou talvez algo ainda pior acontecesse:
+
+
+Zayrion poderia desaparecer.
+
+
+Por isso, ele decidiu não tentar desfazer a magia.
+
+
+Continuaria vivendo com sua condição e buscaria uma resposta através de seus estudos.
+
+
+---
+
+
+1337 D.A. — A Guerra
+
+
+Em 1337 D.A., Zayrion se viu envolvido em uma guerra.
+
+
+Os acontecimentos daquele período marcariam profundamente sua visão sobre o mundo e sobre a magia.
+
+
+Ele já não era apenas o jovem curioso que havia começado seus estudos anos antes.
+
+
+Era um mago que carregava conhecimentos que poucas pessoas poderiam compreender.
+
+
+A guerra também lhe mostrou que o conhecimento mágico não existia apenas para ser estudado.
+
+
+Ele podia proteger.
+
+
+Podia destruir.
+
+
+E podia mudar o destino daqueles que o utilizavam.
+
+
+Depois daquele período, Zayrion continuou sua jornada, carregando consigo suas experiências, seus conhecimentos e o mistério dos Cinco Livros.
+
+
+---
+
+
+1493 D.A. — A Torre
+
+
+Em 1493 D.A., depois de séculos de estudos e experiências, Zayrion decidiu construir um lugar que fosse completamente seu.
+
+
+Assim nasceu sua Torre do Mago.
+
+
+Mais do que uma simples residência, a torre tornou-se o centro de sua existência.
+
+
+Ali, Zayrion poderia guardar seus livros, estudar magia, realizar experimentos e pesquisar os mistérios que ainda não conseguia compreender.
+
+
+A torre também representava algo importante.
+
+
+Zayrion sabia que sua vida seria diferente da vida das pessoas comuns.
+
+
+Enquanto gerações nasciam e desapareciam, ele continuaria ali.
+
+
+Por isso, construiu um lugar que pudesse acompanhá-lo através dos séculos.
+
+
+A torre tornou-se seu lar.
+
+
+Sua biblioteca.
+
+
+Seu laboratório.
+
+
+Seu refúgio.
+
+
+E, talvez, o lugar onde um dia encontraria as respostas para os mistérios que carregava desde a juventude.
+
+
+---
+
+
+O Sonho
+
+
+Algum tempo depois da construção da torre, algo estranho aconteceu.
+
+
+Durante uma noite, Zayrion teve um sonho.
+
+
+Nele havia um garoto.
+
+
+Um garoto de aparência bela e misteriosa, alguém que Zayrion nunca havia visto antes.
+
+
+Ele não sabia quem era aquela pessoa.
+
+
+Não sabia de onde vinha.
+
+
+Nem por que havia aparecido em seu sonho.
+
+
+Mas havia algo diferente naquela visão.
+
+
+Parecia mais do que um simples sonho.
+
+
+Quando Zayrion acordou, percebeu que havia algo ao lado de sua cama.
+
+
+Um objeto que não estava ali quando ele havia adormecido.
+
+
+Um cubo.
+
+
+Zayrion o observou em silêncio.
+
+
+Não demorou para descobrir que aquele objeto carregava um nome:
+
+
+O Cubo do Amor Eterno.
+
+
+Zayrion não sabia quem o havia colocado ali.
+
+
+Não sabia como havia chegado até sua torre.
+
+
+E, principalmente, não sabia qual era sua ligação com o garoto que havia aparecido em seu sonho.
+
+
+Mas aquele acontecimento fez surgir uma nova possibilidade.
+
+
+Durante seus estudos sobre os Cinco Livros, Zayrion havia percebido que existiam coisas sobre eles que simplesmente não faziam sentido.
+
+
+Então uma pergunta começou a persegui-lo:
+
+
+E se os livros tivessem um verdadeiro autor?
+
+
+E, mais assustador ainda:
+
+
+E se o garoto do sonho fosse essa pessoa?
+
+
+Zayrion ainda não possuía nenhuma resposta.
+
+
+Apenas um sonho.
+
+
+Um cubo.
+
+
+E um mistério que talvez estivesse esperando por ele há séculos.
+
+
+E assim começaria uma nova parte da história de Zayrion Montclair.`
+    },
 
     Roger: {
 
