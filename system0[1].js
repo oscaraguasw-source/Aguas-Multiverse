@@ -119,8 +119,9 @@ a guerra foi indo mais o flagelo e gengis khan eram mais fortes com as armas dou
 
   ["guerra1", "guerra de suuntraine e moneycit - ano 1914 d.A", ``],
 
-  ["guerra2", "guerra de quino shin - ano 1939 d.A", ``]
+ ["guerra2", "guerra de quino shin - ano 1939 d.A", ``]
 ];
+
 
 
 $("timelineNav").innerHTML = timeline.map(x =>
@@ -147,6 +148,7 @@ $("timelineNav").addEventListener("click", e => {
 });
 
 renderTimeline(timeline[0][0]);
+
 
 function openMegan(){showSection("meganArea");renderMegan("chave-maior");}
 function startTimedLoading(title,seconds,onComplete,blue=false){
@@ -187,7 +189,7 @@ $("loginForm").addEventListener("submit",e=>{
  if(pass==="3"){startTimedLoading("Acesso à área principal",180,openMain);}
  else if(pass==="4"){showSection("heavenArea");}
  else if(pass==="4311319344"){startTimedLoading("Inicializando sistema da Megan",60,openMegan);}
- else if(pass==="5"){startTimedLoading("Servidor das Rosas dos Ventos",300,()=>{renderTimeline("o-inicio");showSection("rosasArea");},true);}
+ else if(pass==="5"){startTimedLoading("Servidor do Azul dos Ventos",300,()=>{renderTimeline("o-inicio");showSection("rosasArea");},true);}
 else if (pass === "1d100") {
   startTimedLoading("Preparando os dados", 30, openDice);
 }
