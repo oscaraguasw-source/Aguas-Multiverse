@@ -39,3 +39,9 @@ tr:nth-child(even){background:#0a2142}
 .status-on{color:#93f2ba}.status-off{color:#ffaaaa}
 .switch-row{display:grid;grid-template-columns:minmax(120px,1fr) auto auto;gap:10px;align-items:center;padding:12px 0;border-bottom:1px solid #17447f}
 @media(max-width:600px){body{padding:14px}.login{flex-direction:column}.login button{width:100%}.switch-row{grid-template-columns:1fr auto}.switch-row .switch-state{grid-column:1/-1}th,td{padding:8px;font-size:.9rem}}
+
+.timeline-text {
+  white-space: pre-wrap;
+  line-height: 1.7;
+  overflow-wrap: anywhere;
+}
