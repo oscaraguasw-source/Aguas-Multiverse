@@ -12,6 +12,12 @@ if (botoesSistema.length >= 2) {
 
 }
 
+if (botoesSistema.length >= 1) {
+    botoesSistema[0].addEventListener("click", function () {
+        window.location.href = "system0%5B1%5D.html";
+    });
+}
+
 
 // ========================================
 // MENU
