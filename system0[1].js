@@ -1,5 +1,5 @@
 const $ = (id) => document.getElementById(id);
-const sections = ["home","loading","mainArea","heavenArea","meganArea","rosasArea"];
+const sections = ["home","loading","mainArea","heavenArea","meganArea","rosasArea","diceArea"];
 function showSection(id){ sections.forEach(s => $(s).classList.toggle("hidden",s!==id)); window.scrollTo({top:0,behavior:"smooth"}); }
 function home(){ $("password").value=""; $("loginMessage").textContent=""; showSection("home"); }
 document.querySelectorAll('[data-action="home"]').forEach(b=>b.addEventListener("click",home));
@@ -105,7 +105,42 @@ $("loginForm").addEventListener("submit",e=>{
  else if(pass==="4"){showSection("heavenArea");}
  else if(pass==="4311319344"){startTimedLoading("Inicializando sistema da Megan",60,openMegan);}
  else if(pass==="5"){startTimedLoading("Servidor das Rosas dos Ventos",300,()=>{renderTimeline("o-inicio");showSection("rosasArea");},true);}
+else if (pass === "1d100") {
+  startTimedLoading("Preparando os dados", 30, openDice);
+}
  else showMessage($("loginMessage"),"Senha incorreta.");
 });
+// SISTEMA DE DADOS
+const diceTypes = [100, 20, 12, 10, 8, 6, 4, "%"];
+
+const diceButtons = document.getElementById("diceButtons");
+const diceResult = document.getElementById("diceResult");
+
+if (diceButtons && diceResult) {
+  diceButtons.innerHTML = diceTypes.map(die =>
+    `<button data-die="${die}">${die === "%" ? "d%" : "d" + die}</button>`
+  ).join("");
+
+  diceButtons.addEventListener("click", event => {
+    const button = event.target.closest("button[data-die]");
+    if (!button) return;
+
+    const die = button.dataset.die;
+    let result;
+
+    if (die === "%") {
+      result = (Math.floor(Math.random() * 10) + 1) * 10;
+    } else {
+      result = Math.floor(Math.random() * Number(die)) + 1;
+    }
+
+    diceResult.innerHTML = `<h2>Resultado: ${result}</h2>`;
+  });
+}
+
+function openDice() {
+  showSection("diceArea");
+  diceResult.textContent = "Escolha um dado acima.";
+}
 document.addEventListener("click",e=>{const b=e.target.closest('[data-action="system1"],[data-action="system2"]');if(b){const name=b.dataset.action==="system1"?"Sistema 1":"Sistema 2";$("mainContent").innerHTML=`<h2>${name}</h2><p>Esta passagem libera o acesso narrativo ao ${name}. O arquivo do sistema pode ser conectado aqui.</p><button data-action="heaven-back">Voltar à passagem</button>`;showSection("mainArea");$("mainTabs").classList.add("hidden");}});
 document.addEventListener("click",e=>{if(e.target.closest('[data-action="heaven-back"]')){showSection("heavenArea");$("mainTabs").classList.remove("hidden");}});
