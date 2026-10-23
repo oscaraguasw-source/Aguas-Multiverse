@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Águas Multiverse — Sistema 0.0</title>
+<link rel="stylesheet" href="system0.css">
+</head>
+<body>
+<main id="app" class="app">
+  <section id="home" class="panel">
+    <p class="eyebrow">ÁGUAS MULTIVERSE • SISTEMA 0.0</p>
+    <h1>Bem vindo ao sistema</h1>
+    <p class="muted">Insira uma senha de acesso.</p>
+    <form id="loginForm" class="login">
+      <input id="password" type="password" autocomplete="off" placeholder="Senha de acesso" aria-label="Senha de acesso" required>
+      <button type="submit">Acessar</button>
+    </form>
+    <p id="loginMessage" class="message" role="status"></p>
+  </section>
+  <section id="loading" class="panel hidden">
+    <p class="eyebrow">ACESSO EM ANDAMENTO</p><h1 id="loadingTitle">Carregando...</h1>
+    <p id="loadingText" class="muted">Aguarde enquanto o acesso é preparado.</p>
+    <div class="progress-track"><div id="progressBar" class="progress-bar"></div></div>
+    <p id="progressLabel" class="muted">0%</p>
+    <div id="challenge" class="challenge hidden">
+      <h2 id="challengeTitle"></h2><p id="challengeHint" class="muted"></p>
+      <form id="challengeForm" class="login"><input id="challengeAnswer" autocomplete="off" placeholder="Resposta" aria-label="Resposta" required><button type="submit">Confirmar</button></form>
+      <p id="challengeMessage" class="message" role="status"></p>
+    </div>
+  </section>
+  <section id="mainArea" class="hidden">
+    <header class="page-header"><p class="eyebrow">ÁGUAS MULTIVERSE</p><h1>Bem vindo a area principal</h1><button class="secondary" data-action="home">Voltar ao início</button></header>
+    <nav id="mainTabs" class="tabs"></nav><article id="mainContent" class="content-card"></article>
+  </section>
+  <section id="heavenArea" class="hidden">
+    <header class="page-header"><p class="eyebrow">HEAVEN’S GATE</p><h1>Bem vindo a passagem</h1></header>
+    <article class="content-card"><p>Bom com o cartao de acesso voce tem passagem pro sistema 1 e o sistema 2 mais nosso sitema 3 tá impedido pra chegar ate ele um dos sistemas tem que ser apagado</p>
+    <div class="button-row"><button data-action="system1">Sistema 1</button><button data-action="system2">Sistema 2</button><button class="locked" disabled>Sistema 3 — Bloqueado</button></div><button class="secondary" data-action="home">Voltar ao início</button></article>
+  </section>
+  <section id="meganArea" class="hidden">
+    <header class="page-header"><p class="eyebrow">ARQUIVOS RESTRITOS</p><h1>Sistema da megan</h1><p class="muted">Bem vindo aos arquivos de moneycit</p></header>
+    <nav id="meganTabs" class="tabs"></nav><article id="meganContent" class="content-card"></article>
+    <button class="secondary back-button" data-action="home">Voltar ao início</button>
+  </section>
+  <section id="rosasArea" class="hidden">
+    <header class="page-header"><p class="eyebrow">SERVIDOR HISTÓRICO</p><h1>Bem vindo ao servidor das rosas dos ventos</h1></header>
+    <nav id="timelineNav" class="timeline-nav"></nav><article id="timelineContent" class="content-card timeline-content"></article>
+    <button class="secondary back-button" data-action="home">Voltar ao início</button>
+  </section>
+</main>
+<script src="system0.js"></script>
+</body>
+</html>
