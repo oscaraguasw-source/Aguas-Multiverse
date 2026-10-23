@@ -8,17 +8,16 @@ const botoesSistema = document.querySelectorAll(".sistemas button");
 // SISTEMA 0.0
 if (botoesSistema[0]) {
     botoesSistema[0].addEventListener("click", function () {
-        window.location.href = "./system0%5B1%5D.html";
+        window.location.href = "system0%5B1%5D.html";
     });
 }
 
 // SISTEMA 1.0
 if (botoesSistema[1]) {
     botoesSistema[1].addEventListener("click", function () {
-        window.location.href = "./sistema1.html";
+        window.location.href = "sistema1.html";
     });
 }
-
 
 
 // ========================================
@@ -1628,19 +1627,3 @@ function abrirLivro(livro) {
 
 }
 
-
-const botoesSistema = document.querySelectorAll(".sistemas button");
-
-// SISTEMA 0.0
-if (botoesSistema[0]) {
-    botoesSistema[0].addEventListener("click", function () {
-        window.location.href = "system0.html";
-    });
-}
-
-// SISTEMA 1.0
-if (botoesSistema[1]) {
-    botoesSistema[1].addEventListener("click", function () {
-        window.location.href = "sistema1.html";
-    });
-}
