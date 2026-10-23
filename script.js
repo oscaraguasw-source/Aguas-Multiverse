@@ -1619,3 +1619,11 @@ function abrirLivro(livro) {
     }
 
 }
+
+const botoesSistema = document.querySelectorAll(".sistemas button");
+
+if (botoesSistema.length >= 1) {
+    botoesSistema[0].addEventListener("click", function () {
+        window.location.href = "system0[1].html";
+    });
+}
